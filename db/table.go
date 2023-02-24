@@ -39,9 +39,3 @@ type Video struct {
 	CommentCount  uint      //评论总数
 	CreateTime    time.Time //创建时间
 }
-
-//Relation 关注表,使用redis实现
-//type Relation struct {
-//	UserID   uint `gorm:"primaryKey"`
-//	ToUserID uint `gorm:"primaryKey"`
-//}

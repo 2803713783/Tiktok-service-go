@@ -10,7 +10,7 @@ var Mysql *gorm.DB
 
 func init() {
 	var err error
-	dsn := "root:123456@tcp(127.0.0.1:3306)/douyin?charset=utf8mb4&parseTime=True&loc=Local&interpolateParams=true"
+	dsn := "root:123456@tcp(127.0.0.1:3306)/tiktok?charset=utf8mb4&parseTime=True&loc=Local&interpolateParams=true"
 
 	logrus.Info("初始化数据库···")
 

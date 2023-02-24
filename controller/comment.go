@@ -1,10 +1,11 @@
 package controller
 
 import (
-	"github.com/2803713783/Tiktok-service-go/service"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
+
+	"github.com/2803713783/Tiktok-service-go/service"
+	"github.com/gin-gonic/gin"
 )
 
 type CommentListResponse struct {

@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/2803713783/Tiktok-service-go/db"
 	// "github.com/2803713783/Tictok-service-go/service"
+	"github.com/2803713783/Tiktok-service-go/db"
+	"github.com/gin-gonic/gin"
 )
 
 type VideoListResponse struct {
